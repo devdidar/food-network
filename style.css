@@ -1,0 +1,253 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Hero Section Design Start */
+
+.container {
+    display: flex;
+    background-color: #FFFFFF;
+    margin-bottom: 150px;
+}
+
+.container-left,
+.container-right {
+    width: 50%;
+}
+
+.span_color {
+    color: #FE4D30;
+}
+
+.container-left {
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+.container-left h1 {
+    font-size: 50px;
+    line-height: .5;
+}
+
+.container-left p {
+    color: #575757;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #f8a271, #FE482E);
+    padding: 15px 27px;
+    border-radius: 27px;
+}
+
+.container-right img {
+    width: 500px;
+    height: 550px;
+    margin-top: 50px;
+}
+
+
+/* Hero Section Design End */
+
+
+/* About Me Section Design Start  */
+
+.about-me {
+    display: flex;
+}
+
+.about-me-left,
+.about-me-right {
+    width: 50%;
+}
+
+.about-me {
+    background-image: url(images/about_me_bg.png);
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-left: 80px;
+    margin-bottom: 90px;
+}
+
+.about-me-left img {
+    object-fit: cover;
+    height: 480px;
+    padding-left: 80px;
+}
+
+.about-me-right {
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.about-me-right h1 {
+    color: #707070;
+    font-size: 35px;
+}
+
+.about-me-right p {
+    margin-bottom: 80px;
+}
+
+
+/* About Me Section Design End  */
+
+
+/* Recipe Section  Design Start  */
+
+#main-title {
+    color: #676767;
+    text-align: center;
+}
+
+#main-para {
+    color: #252525;
+    margin: 0 auto;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.recipe-items {
+    display: flex;
+    margin-bottom: 120px;
+    padding-left: 160px;
+}
+
+.recipe-item {
+    box-shadow: 2px 2px 28px rgb(180, 180, 180);
+    margin-left: 40px;
+    width: 300px;
+    padding-top: 15px;
+    border-radius: 25px;
+}
+
+.recipe-item img {
+    object-fit: cover;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.recipe-item p,
+h1 {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.recipe-item p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+/* Recipe Section Design End  */
+
+
+/* Follower section Design Start  */
+
+.follower {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 25px rgb(204, 204, 204);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+
+.social-media {
+    padding: 25px 100px;
+}
+
+.social-media h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.social-media h3 {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: -30px;
+}
+
+
+/* Follower section Design End  */
+
+
+/* Newsletter section Design Start  */
+
+.newsletter {
+    background-color: #F8F7F5;
+    padding: 30px 80px;
+    padding-bottom: 90px;
+}
+
+.newsletter h1 {
+    text-align: center;
+}
+
+#email {
+    padding: 15px 100px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #757575;
+    margin-right: 15px;
+}
+
+#email::placeholder {
+    font-size: 14px;
+    color: #cccccc;
+    text-align: left;
+}
+
+#email:focus {
+    border-color: #adadad;
+}
+
+.newsletter-main-section {
+    text-align: center;
+}
+
+.fa-paper-plane {
+    margin-right: 5px;
+}
+
+
+/* Newsletter section Design End  */
+
+
+/* Footer section Design Start  */
+
+.footer {
+    background-color: #0B0D17;
+    padding: 20px 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: .9;
+}
+
+.footer h1 {
+    color: #5B5B5B;
+    display: inline-block;
+}
+
+.orange-color {
+    color: #FC8043
+}
+
+.footer p {
+    color: #E1E1E2;
+    font-weight: 100;
+}
+
+
+/* Footer section Design End  */
